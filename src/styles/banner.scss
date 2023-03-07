@@ -1,0 +1,25 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+
+    > section:nth-child(1) {
+        width: 25vw;
+        min-height: 400px;
+        position: relative;
+        left: -11%;
+        
+        > img {
+            min-width: calc(300px + 3 * (100vw - 450px) / 1620);
+            max-width: 450px;
+            object-fit: cover;
+            object-position: right;
+        }
+
+
+    }
+    > section:nth-child(2) {
+        width: 75vw;
+        min-height: 200px;
+    }
+}
