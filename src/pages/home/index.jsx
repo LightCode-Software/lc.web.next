@@ -15,7 +15,6 @@ function Home() {
                 <title>{ head.title }</title>
                 <meta name="description" content={ head.description }/>
                 <meta name="keywords" content={ head.keywords }/>
-
             </Head>
             <Slider />
             <p>Work in progress.</p>
