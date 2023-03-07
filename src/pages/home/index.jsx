@@ -18,7 +18,7 @@ function Home() {
 
             </Head>
             <Slider />
-            <p>Teste</p>
+            <p>Work in progress.</p>
             <p>Teste</p>
             <p>Teste</p>
             <p>Teste</p>
