@@ -1,0 +1,116 @@
+@keyframes star {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.star-animation {
+    animation: star 1s infinite;
+    position: relative; 
+}
+
+.star-small {
+    width: 9px;
+    height: 9px;
+
+    &:before {
+        content: "";
+        width: 9px;
+        position: absolute;
+        color: var(--primary);
+        border: var(--primary) solid 1px;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: rotate(90deg);
+      }
+
+    &:after {
+        content: "";
+        width: 9px;
+        position: absolute;
+        color: var(--primary);
+        border: var(--primary) solid 1px;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+
+}
+
+.star-medium {
+    width: 10px;
+    height: 10px;
+
+    &:before {
+        content: "";
+        width: 10px;
+        position: absolute;
+        color: var(--primary);
+        border: var(--primary) solid 2px;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: rotate(90deg);
+      }
+
+    &:after {
+        content: "";
+        width: 10px;
+        position: absolute;
+        border: var(--primary) solid 2px;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+}
+
+.star-large {
+    width: 14px;
+    height: 14px;
+
+    &:before {
+        content: "";
+        width: 14px;
+        position: absolute;
+        border: var(--primary) solid 2.5px;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: rotate(90deg);
+      }
+
+    &:after {
+        content: "";
+        width: 14px;
+        position: absolute;
+        border: var(--primary) solid 2.5px;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+}
+
+.star-white {
+    &:before {
+        border-color: #FFF;
+    }
+    &:after {
+        border-color: #FFF;
+    }
+}

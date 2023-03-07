@@ -1,0 +1,32 @@
+name: Deploy
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - '**.md'
+      - '.gitignore'
+
+jobs:
+    build:
+      runs-on: self-hosted
+      steps:
+        - name: Check out code
+          uses: actions/checkout@v3
+        - name: Set up Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 18
+        - name: Install dependencies
+          run: yarn install
+        - name: Build project
+          run: yarn build
+        - name: Stop PM2 process
+          run: PM2_HOME=/root/.pm2/ pm2 stop lc.web.next
+          continue-on-error: true
+        - name: Delete PM2 process
+          run: PM2_HOME=/root/.pm2/ pm2 delete lc.web.next
+          continue-on-error: true
+        - name: Start PM2 process
+          run: PM2_HOME=/root/.pm2/ pm2 start yarn --name "lc.web.next" -- start
+        - name: Save PM2 process list
+          run: PM2_HOME=/root/.pm2/ pm2 save

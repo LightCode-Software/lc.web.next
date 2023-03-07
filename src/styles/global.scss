@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    //transition: all 0.3s ease-in-out;
+
+}
+
+html, body, #__next {
+    scroll-behavior: smooth;
+    min-width: 280px;
+
+}
+
+h1 {
+    color: var(--f-primary);
+    font-size: calc(22px + 23 * (100vw - 300px) / 1620);
+    letter-spacing: 2px;
+    font-weight: 200;
+    line-height: 1.4;
+
+    > bold {
+        font-weight: 600;
+    }
+}
+
+p {
+    color: var(--f-secondary);
+    font-size: calc(14px + 5 * (100vw - 300px) / 1620);
+    letter-spacing: 0;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
