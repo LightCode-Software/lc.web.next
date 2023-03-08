@@ -15,7 +15,7 @@ function Services() {
     return (
         <article className='services'>
             <section>
-                <Image src={bgservices} alt="" fill={true} quality={85} placeholder="blur"/>
+                <Image src={bgservices} alt="" fill={true} quality={80} placeholder="blur"/>
                 <section>
                     <section>
                         <section>
@@ -32,33 +32,33 @@ function Services() {
 
                         <section>
                             <section>
-                                <Image src={img1} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <Image src={img1} alt="" fill={false} quality={50}/>
                                 <h5>Web development</h5>
                             </section>
                         </section>
 
                         <section>
                             <section>
-                                <Image src={img2} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <Image src={img2} alt="" fill={false} quality={50}/>
                                 <h5>Web development</h5>
                             </section>
                             <section>
-                                <Image src={img3} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <Image src={img3} alt="" fill={false} quality={50}/>
                                 <h5>Web development</h5>
                             </section>
                         </section>
 
                         <section>
                             <section>
-                                <Image src={img4} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <Image src={img4} alt="" fill={false} quality={50}/>
                                 <h5>Web development</h5>
                             </section>
                             <section>
-                                <Image src={img5} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <Image src={img5} alt="" fill={false} quality={50}/>
                                 <h5>Web development</h5>
                             </section>
                             <section>
-                                <Image src={img6} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <Image src={img6} alt="" fill={false} quality={50}/>
                                 <h5>Web development</h5>
                             </section>
                         </section>
