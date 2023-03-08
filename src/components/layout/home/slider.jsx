@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 import bgnoblue from '@/assets/img/home/header/bgnoblue.png';
 import bg from '@/assets/img/home/header/bg.png';
-import img from '@/assets/img/home/header/img2.png';
+
+import Meeting from '@/assets/svg/meeting.svg';
 
 function Slider() {
     return (
@@ -21,7 +22,9 @@ function Slider() {
                         </section>
                     </section>
                     <section>
-                        <Image src={img} alt="" fill={true} quality={85} placeholder="blur" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
+                        <section>
+                            <Meeting />
+                        </section>
                     </section>
                 </section>
                 <section>
