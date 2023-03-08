@@ -1,17 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import bgnoblue from '@/assets/img/home/header/bgnoblue.png';
-import bg from '@/assets/img/home/header/bg.png';
-
-import Meeting from '@/assets/svg/meeting.svg';
+import Meeting from '@/../public/assets/svg/meeting.svg';
 
 function Slider() {
     return (
         <article className="slider">
             <section>
-                <Image src={bg} alt="" fill={true} quality={85} placeholder="blur"/>
-                <Image src={bgnoblue} alt="" fill={true} quality={85} placeholder="blur"/>
+                <Image src="/assets/img/home/header/bg.png" alt="" fill={true}/>
+                <Image src="/assets/img/home/header/bgnoblue.png" alt="" fill={true}/>
                 <section>
                     <section>
                         <h1><bold>Light Code</bold> Software</h1>

@@ -1,17 +1,14 @@
 import Image from 'next/image';
 
-import abs from '@/assets/img/home/abs-img.png';
-import about from '@/assets/img/home/about-us.png';
-
 function Banner() {
     return (
         <article className="banner">
             <section>
                 <section>
-                    <Image src={abs} alt="" fill={true} quality={85} placeholder="blur"/>
+                    <Image src="/assets/img/home/abs-img.png" alt="" fill={true}/>
                 </section>
                 <section>
-                    <Image src={about} alt="" fill={true} quality={85} placeholder="blur"/>
+                    <Image src="/assets/img/home/about-us.png" alt="" fill={true}/>
                 </section>
                 <section>
                         <div className="star-animation star-small star-white"></div>

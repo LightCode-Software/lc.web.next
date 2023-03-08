@@ -22,29 +22,6 @@ function Home() {
             <Slider />
             <Banner />
             <Services />
-            <p>Work in progress.</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
         </>
     );
 }
