@@ -1,9 +1,7 @@
 import Image from 'next/image';
 
-
 import abs from '@/assets/img/home/abs-img.png';
 import about from '@/assets/img/home/about-us.png';
-
 
 function Banner() {
     return (
@@ -14,6 +12,11 @@ function Banner() {
                 </section>
                 <section>
                     <Image src={about} alt="" fill={true} quality={85} placeholder="blur"/>
+                </section>
+                <section>
+                        <div className="star-animation star-small star-white"></div>
+                        <div className="star-animation star-medium star-white"></div>
+                        <div className="star-animation star-small star-white"></div>
                 </section>
             </section>
             <section>

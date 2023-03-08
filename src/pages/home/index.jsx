@@ -2,7 +2,8 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import Slider from "@/components/layout/home/slider";
-import Banner from '@/components/layout/home/banner'
+import Banner from '@/components/layout/home/banner';
+import Services from '@/components/layout/home/services';
 
 import Lang from '@/langs/home.json';
 
@@ -20,6 +21,7 @@ function Home() {
             </Head>
             <Slider />
             <Banner />
+            <Services />
             <p>Work in progress.</p>
             <p>Teste</p>
             <p>Teste</p>
