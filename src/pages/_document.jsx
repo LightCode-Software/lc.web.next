@@ -8,9 +8,9 @@ export default function Document() {
         <link rel="shortlink" href="https://lightcode.pt/" />
         <link rel="canonical" href="https://www.lightcode.pt/" />
 
-        <link rel="alternate" hreflang="en" href="https://lightcode.pt/pt/" />
-        <link rel="alternate" hreflang="pt" href="https://lightcode.pt/en/" />
-        <link rel="alternate" hreflang="x-default" href="https://lightcode.pt/" />
+        <link rel="alternate" hrefLang="en" href="https://lightcode.pt/pt/" />
+        <link rel="alternate" hrefLang="pt" href="https://lightcode.pt/en/" />
+        <link rel="alternate" hrefLang="x-default" href="https://lightcode.pt/" />
       
         <meta name="robots" content="all" />
 
