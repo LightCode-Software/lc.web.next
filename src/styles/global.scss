@@ -27,17 +27,17 @@ h1 {
 
 h3 {
     color: var(--f-primary);
-    font-size: calc(20px + 10 * (100vw - 300px) / 1620);
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-h4 {
-    color: var(--f-primary);
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+}
+
+h4 {
+    color: var(--f-primary);
+    font-size: calc(20px + 10 * (100vw - 300px) / 1620);
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 p {
