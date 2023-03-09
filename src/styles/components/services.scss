@@ -1,11 +1,13 @@
 .services {
+    
     width: 100%;
     height: 100vh;
+    
 
-    @media (max-width: $xs) {
-        min-height: 100vh;
-        height: auto; 
-    }
+    @media (max-width: $smd) AND (max-height: $smd) {
+        height: unset;
+        min-height: 800px;
+     }
 
     > section:nth-child(1) {
         position: relative;
@@ -115,7 +117,6 @@
             > section:nth-child(2) {
                 width: 55%;
                 height: 100%;
-
                     
                 @media (max-width: $md) {
                     margin-top: 20px;
@@ -127,7 +128,7 @@
                 }
 
                 //---adwawdoawjdo
-                @media (max-width: $sm) {
+                @media (max-width: $smd) {
                     flex-direction: column;
                 }
 
@@ -141,12 +142,12 @@
                     flex-direction: column;
                     justify-content: center;
 
-                    @media (max-width: $sm) {
+                    @media (max-width: $smd) {
                      //---adwawdoawjdo - row
                         flex-direction: row;
                     }
 
-                    @media (max-width: $sm) {
+                    @media (max-width: $smd) {
                         padding: 0;
                     }
 
@@ -195,13 +196,6 @@
 
                         @media (max-width: $smd) {
                             padding: 28px;
-                            margin-bottom: 40px;
-                            margin-left: 20px;
-                            margin-right: 20px; 
-                        }
-
-                        @media (max-width: $sm) {
-                            padding: 28px;
                             margin: 10px;
                         }
 
@@ -211,7 +205,7 @@
                         }
 
                         @media (max-width: $xxs) {
-                            padding: 5px;
+                            padding: 28px;
                         }
         
 

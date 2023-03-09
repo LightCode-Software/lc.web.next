@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-
 import SliderBackground from '@/assets/img/home/header/bg.png';
 import SliderBackgroundNoBlue from '@/assets/img/home/header/bgnoblue.png';
 import Meeting from '@/assets/svg/meeting.svg';
