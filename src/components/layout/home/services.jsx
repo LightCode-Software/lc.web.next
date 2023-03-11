@@ -31,34 +31,34 @@ function Services() {
 
                         <section>
                             <section>
-                                <Image src={Icon1} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <Image src={Icon6} alt="" fill={false} quality={85} placeholder="blur"/>
                                 <h5>Web development</h5>
                             </section>
                         </section>
 
                         <section>
                             <section>
-                                <Image src={Icon2} alt="" fill={false} quality={85} placeholder="blur"/>
-                                <h5>Web development</h5>
+                                <Image src={Icon5} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <h5>Search Engine <br/> Optimization</h5>
                             </section>
                             <section>
-                                <Image src={Icon3} alt="" fill={false} quality={85} placeholder="blur"/>
-                                <h5>Web development</h5>
+                                <Image src={Icon2} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <h5>Speed Optimization</h5>
                             </section>
                         </section>
 
                         <section>
                             <section>
                                 <Image src={Icon4} alt="" fill={false} quality={85} placeholder="blur"/>
-                                <h5>Web development</h5>
+                                <h5>Mobile App <br/> Development</h5>
                             </section>
                             <section>
-                                <Image src={Icon5} alt="" fill={false} quality={85} placeholder="blur"/>
-                                <h5>Web development</h5>
+                                <Image src={Icon3} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <h5>DevOps</h5>
                             </section>
                             <section>
-                                <Image src={Icon6} alt="" fill={false} quality={85} placeholder="blur"/>
-                                <h5>Web development</h5>
+                                <Image src={Icon1} alt="" fill={false} quality={85} placeholder="blur"/>
+                                <h5>Data</h5>
                             </section>
                         </section>
                     </section>
