@@ -21,12 +21,12 @@ jobs:
         - name: Build project
           run: yarn build
         - name: Stop PM2 process
-          run: PM2_HOME=/root/.pm2/ pm2 stop lc.web.next
+          run: PM2_HOME=/root/.pm2 pm2 stop lc.web.next
           continue-on-error: true
         - name: Delete PM2 process
-          run: PM2_HOME=/root/.pm2/ pm2 delete lc.web.next
+          run: PM2_HOME=/root/.pm2 pm2 delete lc.web.next
           continue-on-error: true
         - name: Start PM2 process
-          run: PM2_HOME=/root/.pm2/ pm2 start yarn --name "lc.web.next" -- start
+          run: PM2_HOME=/root/.pm2 pm2 start yarn --name "lc.web.next" -- start
         - name: Save PM2 process list
-          run: PM2_HOME=/root/.pm2/ pm2 save
+          run: PM2_HOME=/root/.pm2 pm2 save --force

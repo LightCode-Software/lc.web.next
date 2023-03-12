@@ -29,7 +29,7 @@ function Slider() {
                 <section>
                         <div className="star-animation star-large"></div>
                         <div className="star-animation star-small"></div>
-                        <div className="star-animation star-small "></div>
+                        <div className="star-animation star-small"></div>
                         <div className="star-animation star-medium"></div>
                         <div className="star-animation star-large star-white"></div>
                         <div className="star-animation star-large star-white"></div>
